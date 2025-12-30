@@ -20,4 +20,9 @@
 
 ### MEAL : A Benchmark for Continual Multi-Agent Reinforcement Learning (Tristan Tomilin)
 
-## Is Your LLM-Based Multi-Agent a Reliable Real-World Planner? Exploring Fraud Detection in Travel Planning (Junchi Yao) 
+### Is Your LLM-Based Multi-Agent a Reliable Real-World Planner? Exploring Fraud Detection in Travel Planning (Junchi Yao) 
+
+### Capability Transfer from Large to Small Models with Synthetically Generated Data
+
+
+
