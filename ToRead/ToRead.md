@@ -1,4 +1,4 @@
-## Papers to Read 
+## Papers to Read (ICML 2025 Workshop papers) 
 
 ### MALT : Improving Reasoning with Multi-Agent LLM Training (Sumeet Motwani, at al) 
 
@@ -32,4 +32,7 @@
 
 ### Learning Filter-Aware Distance Metrics for Nearest Neighbor Search with Multiple Filters (Gopal Srinivasa) 
 
+### Graph-Based Vector Search : An Experimental Evaluation of the State-of-the-art (llias Azizi) 
+
+### ConvSearch-R1 : Enhancing Query Reformulation for Conversational Search with Reasoning via Reinforcement Learning (Changtai Zhu) 
 
