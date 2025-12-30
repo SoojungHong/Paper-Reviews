@@ -24,5 +24,8 @@
 
 ### Capability Transfer from Large to Small Models with Synthetically Generated Data
 
+### Predictive Scheduling for Efficient Inference-Time Reasoning in Large Language Models
+
+### Token-Efficient RL for LLM Reasoning 
 
 
