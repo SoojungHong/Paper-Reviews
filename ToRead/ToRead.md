@@ -28,4 +28,8 @@
 
 ### Token-Efficient RL for LLM Reasoning 
 
+### Enhancing Retrieval Systems with Inference-Time Logical Reasoning (Felix Faltings)
+
+### Learning Filter-Aware Distance Metrics for Nearest Neighbor Search with Multiple Filters (Gopal Srinivasa) 
+
 
