@@ -1,4 +1,5 @@
-# Talk : 
+# Talk : IAAI Invited Talk: Agentic AI at Enterprise Scale: Three Production Cases from Automotive
+by Bryan Goodman (Executive Director of AI @ Ford) 
 
 ## Learning from building multi-agent systems 
 ### 1. Multi-Agents works at scale 
