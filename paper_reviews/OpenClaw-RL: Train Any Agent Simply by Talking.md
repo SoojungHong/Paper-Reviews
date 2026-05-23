@@ -31,3 +31,20 @@ General Agents: It is the first RL framework to unify diverse environments—inc
 ## Key Concept I have learned 
 
 PRM : Process Reward Model 
+
+At its core, a Process Reward Model (PRM) is trained as a step-by-step classifier.
+
+Unlike standard Outcome Reward Models (ORMs) that look at the entire answer as one block, a PRM treats each individual reasoning step as a separate classification problem.The mathematical formulation of its loss function depends on how the training data is structured, falling into two primary methods: Step-Level Binary Classification and Step-Level Pairwise Preference.
+
+Method 1: Step-Level Binary Classification Loss (Most Common)This is the foundational method used in papers like OpenAI's Let's Verify Step by Step.
+
+<img width="1980" height="455" alt="image" src="https://github.com/user-attachments/assets/56eb5f46-1738-4ce3-a300-6ff5c1af34a4" />
+
+Method 2: Step-Level Pairwise Preference Loss
+Sometimes it is difficult to explicitly label a step as objectively "right" or "wrong" (especially in complex coding or open-ended logic). Instead, researchers show the model two alternative versions of the same step—a "chosen" (better) step and a "rejected" (worse) step.
+
+This adapts the standard Bradley-Terry Preference Loss (commonly used in RLHF) to a step-by-step level:
+<img width="2010" height="987" alt="image" src="https://github.com/user-attachments/assets/bf9f1633-f628-4c32-b71b-bd4c807aee22" />
+
+
+
