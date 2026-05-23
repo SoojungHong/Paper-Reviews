@@ -66,6 +66,7 @@ Supervised Learning: "Here is a question, and here is the exact, perfect answer 
 
 . The Rollout (Exploration)The policy model ($\pi_\theta$) is given a prompt. It uses its current parameter weights to generate a response token-by-token. Because RL requires exploration, the model doesn't just pick the absolute highest-probability word every time; it samples words probabilistically to try new paths.2. The Evaluative Feedback (The Reward)The environment (like a terminal code executor or a User Reply in OpenClaw-RL) evaluates the final outcome.If the agent ran a command and successfully fixed a bug, it gets a high reward ($R = +1$).If the agent crashed the terminal, it gets a penalty ($R = -1$).3. The Advantage Calculation ($\hat{A}_t$)This is the heart of RL parameter updates. The system calculates the Advantage, which asks: “Was this specific sequence of actions better or worse than what the model typically expects to achieve on this prompt?”$$\hat{A}_t = \text{Actual Reward Received} - \text{Expected Reward (Value Baseline)}$$How the Math Translates to Parameter ChangesWhen the PPO algorithm processes the advantage, it updates the parameters using Gradient Ascent:
 
+<img width="670" height="172" alt="image" src="https://github.com/user-attachments/assets/1119d23b-e536-4e3a-87b4-a63fc338de7b" />
 
 
 
